@@ -1,0 +1,93 @@
+.main-container {
+  display: flex;
+}
+
+.left-container {
+  width: 30vw;
+  background-color: #1a171d;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.heading {
+  color: #f3aa4e;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.task-input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.tags-input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.add-task-button {
+  color: white;
+  background-color: #f3aa4e;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.right-container {
+  background-color: #131213;
+  width: 70vw;
+  padding: 30px;
+  color: white;
+}
+
+.category-container {
+  list-style-type: none;
+  display: flex;
+}
+
+.category-button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.active-button {
+  background-color: #f3aa4e;
+  border: 0px;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.tasks-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 10px;
+  background-color: #1a171d;
+  align-items: center;
+}
+
+.category-text {
+  background-color: #f3aa4e;
+  border: 0px;
+  padding: 5px 15px;
+  color: black;
+  border-radius: 20px;
+  margin-right: 10px;
+}
